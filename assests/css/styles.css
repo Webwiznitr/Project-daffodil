@@ -1,74 +1,186 @@
-body {
-  font-family: 'Poppins', sans-serif;
-  font-size: 16px;
-  letter-spacing: .5px;
-}
-h1 {
-  font-family: 'Roboto Condensed', sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
-}
-header {
-  position: relative;
-  background-size: cover;
-  background-position: center;
-  padding-top: 120px;
-  padding-bottom: 600px;
-}
-.overlay {
-  position: absolute;
-  top: 0px;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.1);
-}
-.navbar {
-  position: absolute;
-  width: 100%;
-  top: 0px;
-  margin-bottom: 0px;
-  border-radius: 0px;
-  background-color: transparent;
-  border: transparent;
-}
-.navbar-default .navbar-nav > li > a:hover {
-  color: #eae103;
-  background-color: transparent;
-}
-.navbar-nav > li > a {
-  text-transform: uppercase;
-  line-height: 42px;
-  letter-spacing: 2.5px;
-}
-.navbar-default .navbar-nav > li > a {
-  color: #393939;
-  font-size: 13.5px;
-}
-.navbar-brand {
-  padding: 17px 15px;
-}
-.navbar-brand img {
-  width: 200px;
-}
-.shrink-nav {
-  color: #000 !important;
-  top: 0px;
-  background-color: #fff;
-  position: fixed;
-}
-.shrink-nav .navbar-nav > li > a {
-  color: #000 !important;
-  line-height: 24px;
-}
-@media (max-width: 767px) {
-  .navbar-nav > li > a {
-    line-height: 20px;
-  }
-  .navbar-brand {
-    padding: 7px 15px;
-  }
-  .navbar-brand img {
-    width: 144px;
-  }
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
 
+html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+}
+
+body {
+      font-family: "Helvetica Neue",sans-serif;
+      font-weight: lighter;
+      align-items: center;
+      justify-content: center;
+}
+
+header {
+      width: 100%;
+      height: 100vh;
+      background: url(../css/hero.jpg) no-repeat 50% 50%;
+      background-size: cover;
+}
+
+.content {
+      width: 94%;
+      margin: 4em auto;
+      font-size: 20px;
+      line-height: 30px;
+      text-align: justify;
+}
+
+.logo {
+      line-height: 35px;
+      position: fixed;
+      float: left;
+      margin: 16px 46px;
+      color: #fff;
+      font-weight: bold;
+      font-size: 20px;
+      letter-spacing: 2px;
+}
+
+nav {
+      position: fixed;
+      width: 100%;
+      line-height: 30px;
+}
+
+nav ul {
+      line-height: 35px;
+      list-style: none;
+      background: rgba(0, 0, 0, 0);
+      overflow: hidden;
+      color: #fff;
+      padding: 0;
+      text-align: right;
+      margin: 0;
+      padding-right: 40px;
+      transition: 1s;
+}
+
+nav.black ul {
+      background: #000;
+}
+
+nav ul li {
+      display: inline-block;
+      padding: 16px 40px;;
+}
+
+nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 16px;
+      letter-spacing: 3px;
+}
+nav ul li a:hover {
+      text-decoration: none;
+      color: #696969;
+      font-size: 16px;
+}
+
+.menu-icon {
+      line-height: 35px;
+      width: 100%;
+      background: #000;
+      text-align: right;
+      box-sizing: border-box;
+      padding: 15px 24px;
+      cursor: pointer;
+      color: #fff;
+      display: none;
+}
+
+@media(max-width: 786px) {
+
+      header{
+        background: url(../css/hero.jpg) no-repeat 50% 25%;
+      }
+      .logo {
+            position: fixed;
+            top: 0;
+            margin-top: 16px;
+      }
+
+      nav ul {
+            max-height: 0px;
+            background: #000;
+      }
+
+      nav.black ul {
+            background: #000;
+      }
+
+      .showing {
+            max-height: 34em;
+      }
+
+      nav ul li {
+            box-sizing: border-box;
+            width: 100%;
+            padding: 24px;
+            text-align: center;
+      }
+
+      .menu-icon {
+            display: block;
+      }
+
+}
+
+img{
+  height:150px;
+  width:100%;
+}
+
+.item{
+  padding-left:5px;
+  padding-right:5px;
+}
+.item-card{
+  transition:0.5s;
+  cursor:pointer;
+}
+.item-card-title{  
+  font-size:15px;
+  transition:1s;
+  cursor:pointer;
+}
+
+.card{
+    padding: 20px;
+}
+.card:hover{
+  transform: scale(1.05);
+  box-shadow: 10px 10px 15px rgba(0,0,0,0.3);
+}
+.card-text{
+  height:40px;  
+}
+
+.card::before, .card::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: scale3d(0, 0, 1);
+  transition: transform .3s ease-out 0s;
+  background: rgba(255, 255, 255, 0.1);
+  content: '';
+  pointer-events: none;
+}
+.card::before {
+  transform-origin: left top;
+}
+.card::after {
+  transform-origin: right bottom;
+}
+.card:hover::before, .card:hover::after, .card:focus::before, .card:focus::after {
+  transform: scale3d(1, 1, 1);
+}
