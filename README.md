@@ -38,3 +38,6 @@ NOTE 2: Please abide by the [Code of Conduct](https://github.com/Webwiznitr/Milk
 More Details are coming soon follow the repo to stay updated.
 
 This repo is a gift to our juniors🎁💜
+
+### Initial layout:
+<img src="https://github.com/sumana2001/SGD/blob/master/daffodils.gif">
