@@ -6,10 +6,17 @@
   "commit": false,
   "contributors": [
     {
+
       "login": "sumana2001",
       "name": "Sumana Basu",
       "avatar_url": "https://avatars3.githubusercontent.com/u/63084088?v=4",
       "profile": "http://aliferous.xyz/",
+
+      "login": "sayna3311",
+      "name": "Sayna Parida",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/67572440?v=4",
+      "profile": "https://github.com/sayna3311",
+
       "contributions": [
         "code"
       ]
