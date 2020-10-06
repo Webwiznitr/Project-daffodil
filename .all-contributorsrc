@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "Aniket762",
+      "name": "Aniket Pal",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/67703407?v=4",
+      "profile": "http://aliferous.xyz/",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "Project-daffodil",
+  "projectOwner": "Webwiznitr",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
