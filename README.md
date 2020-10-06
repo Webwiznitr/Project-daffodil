@@ -1,2 +1,40 @@
-# Project-daffodil
-1st year course material 
+# Project daffodil
+[![Starware](https://img.shields.io/badge/Starware-⭐-black?labelColor=f9b00d)](https://github.com/zepfietje/starware)
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
+The scope of the project is to design a NIT Rourkela based course material website. The vision of this project is to provide all 1st years of NIT Rourkela with proper pdf and books needed for their semester 1 and 2 in BTech. The only aim to make this project is helping out our juniors.
+
+
+### We are really excited to see your awesome PRs.
+
+`Contributions for Hacktoberfest 2020 are welcome 🎉🎉`
+
+# Ways to contribute:
+1. Solve the issues which are listed
+2. Create your own issue and then send PR.
+
+Please refer to the project's style and contribution guidelines for submitting patches and additions. In general, we follow the "fork-and-pull" Git workflow.
+
+ 1. **Fork** the repo on GitHub
+ 2. **Clone** the project to your own machine
+ 3. **Commit** changes to your own branch
+ 4. **Push** your work back up to your fork
+ 5. Submit a **Pull request** so that we can review your changes
+
+NOTE 1: Please abide by the [Contributing Guidelines](https://github.com/Webwiznitr/MilkERP/blob/master/CONTRIBUTING.md).
+
+NOTE 2: Please abide by the [Code of Conduct](https://github.com/Webwiznitr/MilkERP/blob/master/CODE_OF_CONDUCT.md).
+
+<br>
+
+### The whole project will be created on basic html, css and javascript so beginners can also contribute.
+ 
+## Home Page 
+- It will contain all the subjects of 1st year.
+
+## Page for every subject
+- It will contain pdfs of books and notes of the subject mentioned.
+
+More Details are coming soon follow the repo to stay updated.
+
+This repo is a gift to our juniors🎁💜
