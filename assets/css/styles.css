@@ -99,7 +99,7 @@ nav ul li a:hover {
 @media(max-width: 786px) {
 
       header{
-        background: url(../css/hero.jpg) no-repeat 50% 25%;
+        background: url(../img/hero.jpg) no-repeat 50% 25%;
       }
       .logo {
             position: fixed;
