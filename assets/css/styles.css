@@ -70,6 +70,7 @@ nav {
       position: fixed;
       width: 100%;
       line-height: 30px;
+      z-index: 100;
 }
 
 nav ul {
@@ -97,6 +98,21 @@ button.darkmode {
       background: #172644;
       color: white;
 }
+.material-btn, .material-btn:focus{
+      margin: 15px;
+      font-style: italic;
+      font-size: 20px;
+      color: #FFF;
+      background-color: #000;
+      border-radius: 5px;
+}
+.material-btn:hover{
+      margin: 25px;
+      color: #000;
+      background-color: #fff;  
+      transition-duration: 0.3s;
+}
+
 nav.black ul {
       background: #000;
 }
@@ -230,4 +246,25 @@ img{
 
 .card-block img{
       height: 150px;
+}
+
+.typewriter h1 {
+      overflow: hidden;
+      border-right: .15em solid black;
+      white-space: nowrap;
+      margin: 0 auto;
+      letter-spacing: .10em;
+      animation: 
+        typing 3.5s steps(30, end),
+        blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+from { width: 0 }
+to { width: 100% }
+}
+
+@keyframes blink-caret {
+from, to { border-color: transparent }
+50% { border-color: black; }
 }
