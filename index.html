@@ -33,39 +33,54 @@
     <link rel="stylesheet" href="assets/css/styles.css" />
 
     <script src="assets/js/index.js"></script>
+    
+    <script>
+      $(window).on("load",function(){
+        $(".loader-bg").fadeOut("slow");
+      })
+    </script>
+
   </head>
   <body>
-  <div class="large-wrapper">
-    <div class="wrapper">
-      <header>
-        <nav>
-          <div class="menu-icon">
-            <i class="fa fa-bars fa-2x"></i>
-          </div>
-          <div class="logo">LOGO</div>
-          <div class="menu">
-            <ul>
-              <li><a href="#">HOME</a></li>
-              <li><a href="#">ABOUT</a></li>
-              <li><a href="#">MATERIALS</a></li>
-              <li><a href="#">CONTACT US</a></li>
-              <li><button id="dark" type="button" class="btn btn-outline-dark">
-                 Dark Mode 
-              </button></li>
-            </ul>
-          </div>
-        </nav>
-      </header>
+    <div class="loader-bg">
+      <div class="loader"></div>
+    </div>
+
+    <div class="large-wrapper">
+      <div class="wrapper">
+        <header>
+          <nav>
+            <div class="menu-icon">
+              <i class="fa fa-bars fa-2x"></i>
+            </div>
+            <div class="logo">LOGO</div>
+            <div class="menu">
+              <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">MATERIALS</a></li>
+                <li><a href="#">CONTACT US</a></li>
+                <li>
+                  <button id="dark" type="button" class="btn btn-outline-dark">
+                    Dark Mode
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </header>
       </div>
       <div class="hero">
-         <div class="hero-content typewriter">
-            <h1>DAFFODIL</h1>
-            <button type="button" class="btn btn-outline-dark material-btn">Go to Materials</button>
-         </div>
+        <div class="hero-content typewriter">
+          <h1>DAFFODIL</h1>
+          <button type="button" class="btn btn-outline-dark material-btn">
+            Go to Materials
+          </button>
+        </div>
       </div>
       <div class="about">
-      <h1>ABOUT</h1>
-      <hr>
+        <h1>ABOUT</h1>
+        <hr />
       </div>
       <div class="content">
         <h1>MATERIALS</h1>
@@ -78,7 +93,9 @@
                   src="https://georgetelegraphblog.files.wordpress.com/2019/02/electrical-engineering.jpg"
                   alt="Electrical"
                 />
-                  <button class="electrical-btn"><h5 class="item-card-title mt-3 mb-3">Electrical Sem</h5></button>
+                <button class="electrical-btn">
+                  <h5 class="item-card-title mt-3 mb-3">Electrical Sem</h5>
+                </button>
               </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 item">
@@ -87,61 +104,74 @@
                 <img
                   src="https://subcontracteu.com/uploads/pages/535eee07e8fd4c9fabc377cd464c1d74.png"
                 />
-                <button class="electronics-btn"><h5 class="card-title mt-3 mb-3">Electronics Sem</h5></button>
+                <button class="electronics-btn">
+                  <h5 class="card-title mt-3 mb-3">Electronics Sem</h5>
+                </button>
               </div>
             </div>
           </div>
         </div>
         <div class="electrical" style="display: none">
           <h2>Electrical</h2>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rhoncus lorem non tincidunt dictum. Nullam id nulla molestie enim volutpat euismod. Nunc sollicitudin orci ut porta feugiat. Donec porttitor faucibus ipsum ac aliquam. Proin condimentum massa vel dapibus pulvinar.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rhoncus
+          lorem non tincidunt dictum. Nullam id nulla molestie enim volutpat
+          euismod. Nunc sollicitudin orci ut porta feugiat. Donec porttitor
+          faucibus ipsum ac aliquam. Proin condimentum massa vel dapibus
+          pulvinar.
         </div>
         <div class="electronics" style="display: none">
           <h2>Electronics</h2>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rhoncus lorem non tincidunt dictum. Nullam id nulla molestie enim volutpat euismod. Nunc sollicitudin orci ut porta feugiat. Donec porttitor faucibus ipsum ac aliquam. Proin condimentum massa vel dapibus pulvinar.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rhoncus
+          lorem non tincidunt dictum. Nullam id nulla molestie enim volutpat
+          euismod. Nunc sollicitudin orci ut porta feugiat. Donec porttitor
+          faucibus ipsum ac aliquam. Proin condimentum massa vel dapibus
+          pulvinar.
         </div>
       </div>
       <div class="contact">
-         <h1>CONTACT US</h1>
-          <hr>
+        <h1>CONTACT US</h1>
+        <hr />
       </div>
       <footer>
-          <center><img src="./assets/img/Daffodil%20footer.svg" alt=""/></center>
-          <div class="footer-content">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rhoncus lorem non tincidunt dictum. Nullam id nulla molestie enim volutpat euismod. Nunc sollicitudin orci ut porta feugiat. Donec porttitor faucibus ipsum ac aliquam. Proin condimentum massa vel dapibus pulvinar.
-          </div>
+        <center><img src="./assets/img/Daffodil%20footer.svg" alt="" /></center>
+        <div class="footer-content">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rhoncus
+          lorem non tincidunt dictum. Nullam id nulla molestie enim volutpat
+          euismod. Nunc sollicitudin orci ut porta feugiat. Donec porttitor
+          faucibus ipsum ac aliquam. Proin condimentum massa vel dapibus
+          pulvinar.
+        </div>
       </footer>
     </div>
-<script>
-  const buttonDark = document.getElementById('dark')
-buttonDark.addEventListener('click', () => {
-  if(buttonDark.innerText != 'Dark Mode'){
-    buttonDark.innerText = "Dark Mode"
-  }else{
-    buttonDark.innerText = "Light Mode"
-  }
-      var heroH1 = document.querySelector('.hero h1')
-            heroH1.classList.toggle('darkmode')
-      var button = document.querySelectorAll("button")
-            button.forEach(item => {
-                  item.classList.toggle('darkmode')
-            })
-      var logo = document.querySelector('.logo')
-            logo.classList.toggle('darkmode')
-      var large = document.querySelector('.large-wrapper') 
-            large.classList.toggle('darkmode')
-      var navBlack = document.querySelector('nav')
-            navBlack.classList.toggle('darkmode')
-      var navUlLi = document.querySelectorAll('nav ul li')
-      navUlLi.forEach(item => {
-            item.classList.toggle('darkmode')
-      });var itemCardTitle = document.querySelectorAll('.item-card-title')
-            itemCardTitle.forEach(item => {
-            item.classList.toggle('darkmode')
-            })
-      
-})
-</script>
-</body>
-
+    <script>
+      const buttonDark = document.getElementById("dark");
+      buttonDark.addEventListener("click", () => {
+        if (buttonDark.innerText != "Dark Mode") {
+          buttonDark.innerText = "Dark Mode";
+        } else {
+          buttonDark.innerText = "Light Mode";
+        }
+        var heroH1 = document.querySelector(".hero h1");
+        heroH1.classList.toggle("darkmode");
+        var button = document.querySelectorAll("button");
+        button.forEach((item) => {
+          item.classList.toggle("darkmode");
+        });
+        var logo = document.querySelector(".logo");
+        logo.classList.toggle("darkmode");
+        var large = document.querySelector(".large-wrapper");
+        large.classList.toggle("darkmode");
+        var navBlack = document.querySelector("nav");
+        navBlack.classList.toggle("darkmode");
+        var navUlLi = document.querySelectorAll("nav ul li");
+        navUlLi.forEach((item) => {
+          item.classList.toggle("darkmode");
+        });
+        var itemCardTitle = document.querySelectorAll(".item-card-title");
+        itemCardTitle.forEach((item) => {
+          item.classList.toggle("darkmode");
+        });
+      });
+    </script>
+  </body>
 </html>
