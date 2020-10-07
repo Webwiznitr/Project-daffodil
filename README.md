@@ -54,7 +54,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="http://aliferous.xyz/"><img src="https://avatars2.githubusercontent.com/u/67703407?v=4" width="100px;" alt=""/><br /><sub><b>Aniket Pal</b></sub></a><br /><a href="https://github.com/Webwiznitr/Project-daffodil/commits?author=Aniket762" title="Code">💻</a></td>
+    <td align="center"><a href="http://aliferous.xyz/"><img src="https://avatars2.githubusercontent.com/u/67703407?v=4" width="100px;" alt=""/><br /><sub><b>Aniket Pal</b></sub></a><br /><a href="https://github.com/Webwiznitr/Project-daffodil/commits?author=Aniket762" title="Code">💻</a> <a href="https://github.com/Webwiznitr/Project-daffodil/commits?author=Aniket762" title="Documentation">📖</a></td>
   </tr>
 </table>
 
