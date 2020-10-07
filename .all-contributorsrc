@@ -6,6 +6,15 @@
   "commit": false,
   "contributors": [
     {
+
+      "login": "Aniket762",
+      "name": "Aniket Pal",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/67703407?v=4",
+      "profile": "http://aliferous.xyz/",
+      "contributions": [
+        "code",
+        "doc"
+
       "login": "sayna3311",
       "name": "Sayna Parida",
       "avatar_url": "https://avatars2.githubusercontent.com/u/67572440?v=4",
@@ -30,6 +39,7 @@
       "profile": "https://www.linkedin.com/in/katy-sage-86502718b/",
       "contributions": [
         "code"
+
       ]
     }
   ],

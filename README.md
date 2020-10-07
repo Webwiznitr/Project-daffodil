@@ -1,6 +1,8 @@
 # Project daffodil
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 [![Starware](https://img.shields.io/badge/Starware-⭐-black?labelColor=f9b00d)](https://github.com/zepfietje/starware)
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
@@ -54,9 +56,13 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
+
+    <td align="center"><a href="http://aliferous.xyz/"><img src="https://avatars2.githubusercontent.com/u/67703407?v=4" width="100px;" alt=""/><br /><sub><b>Aniket Pal</b></sub></a><br /><a href="https://github.com/Webwiznitr/Project-daffodil/commits?author=Aniket762" title="Code">💻</a> <a href="https://github.com/Webwiznitr/Project-daffodil/commits?author=Aniket762" title="Documentation">📖</a></td>
+
     <td align="center"><a href="https://github.com/sayna3311"><img src="https://avatars2.githubusercontent.com/u/67572440?v=4" width="100px;" alt=""/><br /><sub><b>Sayna Parida</b></sub></a><br /><a href="https://github.com/Webwiznitr/Project-daffodil/commits?author=sayna3311" title="Code">💻</a></td>
     <td align="center"><a href="http://aliferous.xyz/"><img src="https://avatars3.githubusercontent.com/u/63084088?v=4" width="100px;" alt=""/><br /><sub><b>Sumana Basu</b></sub></a><br /><a href="https://github.com/Webwiznitr/Project-daffodil/commits?author=sumana2001" title="Code">💻</a></td>
     <td align="center"><a href="https://www.linkedin.com/in/katy-sage-86502718b/"><img src="https://avatars2.githubusercontent.com/u/68826585?v=4" width="100px;" alt=""/><br /><sub><b>Katy Sage</b></sub></a><br /><a href="https://github.com/Webwiznitr/Project-daffodil/commits?author=KatySage" title="Code">💻</a></td>
+
   </tr>
 </table>
 
