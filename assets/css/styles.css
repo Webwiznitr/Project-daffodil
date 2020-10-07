@@ -269,6 +269,19 @@ img{
         blink-caret .75s step-end infinite;
 }
 
+.electrical{
+    padding: 7% 10%;
+    background-color: #0091a2;
+    color: white;
+}
+
+.electronics{
+    margin-top: 5%;
+    padding: 7% 10%;
+    background-color: #0091a2;
+    color: white;
+}
+
 @keyframes typing {
 from { width: 0 }
 to { width: 100% }
