@@ -154,6 +154,16 @@ nav ul li a.darkmode:hover{
       display: none;
 }
 
+footer img{
+    width: 60%;
+    
+}
+.footer-content{
+    margin-top: -5%;
+    padding: 7% 10%;
+    background-color: #4fd3b9;
+}
+
 @media(max-width: 786px) {
 
       header{
