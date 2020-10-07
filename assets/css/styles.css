@@ -84,6 +84,12 @@ nav ul {
       padding-right: 40px;
       transition: 1s;
 }
+.btn.darkmode:hover, .btn.darkmode:active{
+    color: white;
+}
+#dark.darkmode{
+    color: white;
+}
 button{
       color: #000;
 }
