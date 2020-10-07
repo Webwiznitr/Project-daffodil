@@ -106,7 +106,7 @@ button.darkmode {
       background-color: #000;
       border-radius: 5px;
 }
-.material-btn:hover{
+.material-btn:hover , .material-btn.darkmode:hover{
       margin: 25px;
       color: #000;
       background-color: #fff;  
