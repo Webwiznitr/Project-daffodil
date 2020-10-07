@@ -35,6 +35,7 @@
     <script src="assets/js/index.js"></script>
   </head>
   <body>
+  <div class="large-wrapper">
     <div class="wrapper">
       <header>
         <nav>
@@ -48,6 +49,9 @@
               <li><a href="#">ABOUT</a></li>
               <li><a href="#">MATERIALS</a></li>
               <li><a href="#">CONTACT US</a></li>
+              <li><button id="dark" type="button" class="btn btn-outline-dark">
+                 Dark Mode 
+              </button></li>
             </ul>
           </div>
         </nav>
@@ -153,9 +157,39 @@
         </div>
       </div>
       <footer>
-        <img src="assets/img/footer.jpg" alt=""/>
+        <img src="assets/img/footer.png" alt=""/>
       </footer>
+    </div>
+<script>
+  const buttonDark = document.getElementById('dark')
+buttonDark.addEventListener('click', () => {
+  if(buttonDark.innerText != 'Dark Mode'){
+    buttonDark.innerText = "Dark Mode"
+  }else{
+    buttonDark.innerText = "Light Mode"
+  }
+      var heroH1 = document.querySelector('.hero h1')
+            heroH1.classList.toggle('darkmode')
+      var button = document.querySelectorAll("button")
+            button.forEach(item => {
+                  item.classList.toggle('darkmode')
+            })
+      var logo = document.querySelector('.logo')
+            logo.classList.toggle('darkmode')
+      var large = document.querySelector('.large-wrapper') 
+            large.classList.toggle('darkmode')
+      var navBlack = document.querySelector('nav')
+            navBlack.classList.toggle('darkmode')
+      var navUlLi = document.querySelectorAll('nav ul li')
+      navUlLi.forEach(item => {
+            item.classList.toggle('darkmode')
+      });var itemCardTitle = document.querySelectorAll('.item-card-title')
+            itemCardTitle.forEach(item => {
+            item.classList.toggle('darkmode')
+            })
+      
+})
+</script>
+</body>
 
-    
-  </body>
 </html>
