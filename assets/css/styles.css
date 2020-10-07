@@ -196,8 +196,8 @@ img{
 }
 
 .item{
-  padding-left:5px;
-  padding-right:5px;
+  padding-left:40px;
+  padding-right:40px;
 }
 .item-card{
   transition:0.5s;
@@ -245,7 +245,7 @@ img{
 }
 
 .card-block img{
-      height: 150px;
+      height: 25rem;
 }
 
 .typewriter h1 {
