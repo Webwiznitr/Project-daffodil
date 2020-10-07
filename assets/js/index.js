@@ -1,4 +1,6 @@
- $(document).ready(function() {
+
+
+$(document).ready(function() {
             $(".menu-icon").on("click", function() {
                   $("nav ul").toggleClass("showing");
             });
@@ -15,3 +17,5 @@
                   $('nav').removeClass('black');
             }
       })
+
+

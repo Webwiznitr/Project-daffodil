@@ -17,6 +17,10 @@ body {
       align-items: center;
       justify-content: center;
 }
+.large-wrapper.darkmode {
+background: #172644;
+color: white;
+}
 
 .hero{
      background: url(../img/hero.jpg) no-repeat 50% 50%;
@@ -35,6 +39,9 @@ body {
     color: white;
     font-size: 100px;
     font-weight: 50;
+}
+.hero h1.darkmode{
+      color: #172644;
 }
 
 .content {
@@ -55,6 +62,9 @@ body {
       font-size: 20px;
       letter-spacing: 2px;
 }
+.logo.darkmode{
+      color: #172644;
+}
 
 nav {
       position: fixed;
@@ -74,26 +84,40 @@ nav ul {
       padding-right: 40px;
       transition: 1s;
 }
-
+button{
+      color: #000;
+}
+button.darkmode {
+      background: #172644;
+      color: white;
+}
 nav.black ul {
       background: #000;
 }
-
+nav.black.darkmode ul{
+      background: #f2e3aa;
+}
 nav ul li {
       display: inline-block;
       padding: 16px 40px;;
 }
-
+nav ul li.darkmode a{
+      color: #172644;
+}
 nav ul li a {
       text-decoration: none;
       color: #fff;
       font-size: 16px;
       letter-spacing: 3px;
 }
+
 nav ul li a:hover {
       text-decoration: none;
       color: #696969;
       font-size: 16px;
+}
+nav ul li a.darkmode:hover{
+      color: #38599d;
 }
 
 .menu-icon {
@@ -162,7 +186,9 @@ img{
   transition:1s;
   cursor:pointer;
 }
-
+.item-card-title.darkmode{
+      color: white;
+}
 .card{
     padding: 20px;
 }
