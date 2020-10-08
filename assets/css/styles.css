@@ -39,9 +39,32 @@ color: white;
     color: white;
     font-size: 100px;
     font-weight: 50;
+    text-shadow: 0 15px 15px #c49102;
 }
 .hero h1.darkmode{
       color: #172644;
+}
+.hero-content h1::before {
+      content: 'DAFFODIL';
+      position: absolute;
+      color: #172644;
+      width: 0;
+      overflow: hidden;
+      transition: 1s;
+}
+.hero-content h1:hover::before {
+      width: 100%;
+}
+.hero-content h1.darkmode::before {
+      content: 'DAFFODIL';
+      position: absolute;
+      color: #fff;
+      width: 0;
+      overflow: hidden;
+      transition: 1s;
+}
+.hero-content h1.darkmode:hover::before {
+      width: 100%;
 }
 
 .content {
@@ -91,7 +114,7 @@ nav ul {
     color: white;
 }
 button{
-      color: #000;
+      color: #c49102;
 }
 button.darkmode {
       background: #172644;
@@ -116,14 +139,22 @@ nav ul li a {
       font-size: 16px;
       letter-spacing: 3px;
 }
-
+nav ul:hover li a {
+      filter: blur(1px);
+}
 nav ul li a:hover {
       text-decoration: none;
-      color: #696969;
-      font-size: 16px;
+      color: #fff;
+      font-size: 20px;
+      filter: blur(0px);
+      text-shadow: 0 5px 15px #fff;
 }
-nav ul li a.darkmode:hover{
-      color: #38599d;
+nav ul li.darkmode a:hover{
+      font-size: 20px;
+      text-decoration: none;
+      color: #172644;
+      filter: blur(0px);
+      text-shadow: 0 5px 15px #172644;
 }
 
 .menu-icon {
@@ -231,3 +262,13 @@ img{
 .card-block img{
       height: 150px;
 }
+.glow-button:hover {
+      transform: scale(1.1);
+      color: #c49102;
+      box-shadow: 0 5px 15px #c49102;
+    }
+  .glow-button.darkmode:hover {
+      transform: scale(1.1);
+      color: #c49102;
+      box-shadow: 0 5px 15px #172644;
+    }
