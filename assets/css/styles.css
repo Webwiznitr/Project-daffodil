@@ -301,6 +301,7 @@ img {
 }
 
 .electrical {
+  margin-top: 5%;
   padding: 7% 10%;
   background-color: #0091a2;
   color: white;
@@ -416,4 +417,7 @@ img {
           -ms-transform: rotate(360deg);  /* IE 9 */
           transform: rotate(360deg);  /* Firefox 16+, IE 10+, Opera */
       }
+  }
+  .thumbnail{
+    box-shadow:10px 10px 10px rgba(255, 255, 255, 0.329);
   }
