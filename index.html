@@ -1,299 +1,340 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Daffodil</title>
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-      crossorigin="anonymous"
-    />
+<!Doctype html>
+<html lang="en">
+    <head>
 
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
-      integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
-      crossorigin="anonymous"
-    />
+    <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <title>Daffodil</title>
 
-    <script
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-      integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+        <!-- CSS -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500&display=swap">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/css/jquery.mCustomScrollbar.min.css">
+        <link rel="stylesheet" href="assets/css/animate.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/media-queries.css">
 
-    <link rel="stylesheet" href="assets/css/styles.css" />
+    </head>
 
-    <script src="assets/js/index.js"></script>
-    
-    <script>
-      $(window).on("load",function(){
-        $(".loader-bg").fadeOut("slow");
-      })
-    </script>
+    <body>
 
-  </head>
-  <body>
-    <div class="loader-bg">
-      <div class="loader"></div>
-    </div>
+    <!-- Wrapper -->
+      <div class="wrapper container-fluid">
 
-    <div class="large-wrapper">
-      <div class="wrapper">
-        <header>
-          <nav>
-            <div class="menu-icon">
-              <i class="fa fa-bars fa-2x"></i>
-            </div>
-            <div class="logo">LOGO</div>
-            <div class="menu">
-              <ul>
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">MATERIALS</a></li>
-                <li><a href="#">CONTACT US</a></li>
-                <li>
-                  <button id="dark" type="button" class="btn btn-outline-dark">
-                    Dark Mode
-                  </button>
-                </li>
-              </ul>
-            </div>
-          </nav>
-        </header>
-      </div>
-      <div class="hero">
-        <div class="hero-content typewriter">
-          <h1>DAFFODIL</h1>
-          <button type="button" class="btn btn-outline-dark material-btn">
-            Go to Materials
-          </button>
+      <!-- Sidebar -->
+      <nav class="sidebar">
+        
+        <!-- close sidebar menu -->
+        <div class="dismiss">
+          <i class="fas fa-arrow-left"></i>
         </div>
-      </div>
-      <div class="about">
-        <h1>ABOUT</h1>
-        <hr />
-      </div>
+        
+        <div class="logo">
+          <h3><a href="index.html">Daffodil</a></h3>
+        </div>
+        
+        <ul class="list-unstyled menu-elements">
+          <li class="active">
+            <a class="scroll-link" href="#top-content"><i class="fas fa-home"></i>Home</a>
+          </li>
+          <li>
+            <a class="scroll-link" href="#section-1"><i class="fas fa-question"></i>What we do</a>
+          </li>
+          <li>
+            <a class="scroll-link" href="#section-2"><i class="fas fa-info"></i>About</a>
+          </li>
+          <li>
+            <a class="scroll-link" href="#section-5"><i class="fas fa-book"></i>Materials</a>
+          </li>
+          <li>
+            <a class="scroll-link" href="#section-6"><i class="fas fa-envelope"></i>Contact</a>
+          </li>
+        </ul>
+        
+        <div class="to-top">
+          <a class="btn btn-primary btn-customized-3" href="#" role="button"><i class="fas fa-arrow-up"></i>Top</a>
+        </div>
+        
+        <div class="dark-light-buttons">
+          <a class="btn btn-primary btn-customized-4 btn-customized-dark" href="#" role="button">Dark</a>
+          <a class="btn btn-primary btn-customized-4 btn-customized-light" href="#" role="button">Light</a>
+        </div>
+      
+      </nav>
+      <!-- End sidebar -->
+      
+      <!-- Dark overlay -->
+        <div class="overlay"></div>
+
+      <!-- Content -->
       <div class="content">
-        <h1>MATERIALS</h1>
-        <div class="container mt-2">
-          <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-12 item">
-              <div class="card item-card card-block">
-                <h4 class="card-title text-right"></h4>
-                <img
-                  src="https://georgetelegraphblog.files.wordpress.com/2019/02/electrical-engineering.jpg"
-                  alt="Electrical"
-                />
-                <button class="electrical-btn">
-                  <h5 class="item-card-title mt-3 mb-3">Electrical Sem</h5>
-                </button>
+      
+        <!-- open sidebar menu -->
+        <a class="btn btn-primary btn-customized open-menu" href="#" role="button">
+                    <i class="fas fa-align-left"></i> <span>Menu</span>
+                </a>
+      
+            <!-- Top content -->
+            <div class="top-content section-container" id="top-content">
+              <div class="container">
+                  <div class="row">
+                      <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+                        <h1 class="wow fadeIn">Daffodil learnings</h1>
+                        <div class="description wow fadeInLeft">
+                          <p>Best place to learn new things. Click below button to know more.</p>
+                        </div>
+                        <div class="buttons wow fadeInUp">              
+                          <a class="btn btn-primary btn-customized scroll-link" href="#section-1" role="button">
+                            <i class="fas fa-book-open"></i> Get started
+                          </a>
+                        </div>
+                      </div>
+                  </div>
               </div>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 item">
-              <div class="card item-card card-block">
-                <h4 class="item-card-title text-right"></h4>
-                <img
-                  src="https://subcontracteu.com/uploads/pages/535eee07e8fd4c9fabc377cd464c1d74.png"
-                />
-                <button class="electronics-btn">
-                  <h5 class="card-title mt-3 mb-3">Electronics Sem</h5>
-                </button>
+    
+            <!-- Section 1 -->
+            <div class="section-1-container section-container" id="section-1">
+              <div class="container">
+                  <div class="row">
+                      <div class="col section-1 section-description wow fadeIn">
+                          <h2>What We Do</h2>
+                          <div class="divider-1 wow fadeInUp"><span></span></div>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col section-1-box wow fadeInUp">
+                        <div class="row">
+                          <div class="col-md-4 col-lg-6">
+                            <div class="section-1-box-icon"><i class="fab fa-brain"></i></div>
+                            <h3>Find</h3>
+                            <p>Seek for what you need.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col section-1-box wow fadeInUp">                      
+                        <div class="row">
+                          <div class="col-md-4 col-lg-6">
+                            <div class="section-1-box-icon"><i class="fab fa-book"></i></div>
+                            <h3>Learn</h3>
+                            <p>Seek for what you need.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col section-1-box wow fadeInUp">
+                        <div class="row">
+                          <div class="col-md-4 col-lg-6">
+                            <div class="section-1-box-icon"><i class="fab fa-lightbulb"></i></div>
+                            <h3>Explore</h3>
+                            <p>Seek for what you need.</p>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
               </div>
             </div>
+    
+            <!-- Section 2 -->
+            <div class="section-2-container section-container section-container-gray-bg" id="section-2">
+              <div class="container">
+                <div class="row">
+                  <div class="col section-2 section-description wow fadeIn">
+                      <h2>About us</h2>
+                      <div class="divider-1 wow fadeInUp"><span></span></div>
+                  </div>
+              </div>
+                  <div class="row">
+                    <div class="col section-2-box wow fadeInLeft">
+                        <p class="medium-paragraph">
+                          info about application.
+                        </p>
+                        <p>
+                          Some more info. 
+                        </p>
+                    </div>
+                    <div class="col section-2-box wow fadeInRight">
+                      <img src="assets/img/about.jpg" alt="about-us">
+                    </div>
+                  </div>
+              </div>
+            </div>
+    
+        <!-- Section 4 -->
+            <div class="section-4-container section-container section-container-image-bg" id="section-4">
+              <div class="container">
+                  <div class="row">
+                      <div class="col section-4 section-description wow fadeInLeftBig">
+                        <h2>We Think That...</h2>
+                          <p>
+                            Learning is never ending process and we believe that growing with community is always the best. If you have any suggestions then feel free to drop us a line. 
+                          </p>
+                      </div>
+                  </div>
+                  <div class="row">
+                    <div class="col section-bottom-button wow fadeInUp">
+                            <a class="btn btn-primary btn-customized-2 scroll-link" href="#section-6" role="button">
+                        <i class="fas fa-envelope"></i> Contact Us
+                      </a>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            
+            <!-- Section 5 -->
+            <div class="section-5-container section-container" id="section-5">
+              <div class="container">
+                  <div class="row">
+                      <div class="col section-5 section-description wow fadeIn">
+                          <h2>Materials</h2>
+                          <div class="divider-1 wow fadeInUp"><span></span></div>
+                          <p>We have added some books for you. Check them out!</p>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-md-3 card section-5-box wow fadeInUp">
+                        <div class="card-heading">Physics 1</div>
+                        <div class="section-5-box-image card-image"><img src="assets/img/physics.jpg" style="display: block; align-self: center; margin: auto;"></div>
+                        <div class="card-body">
+                          <p>Modern Physics by Arthur beiser.</p>
+                          <div class="btn btn-primary">View<i class="fa fa-arrow-right"></i></div>
+                        </div>
+                      </div>
+                      <div class="col-md-3 card section-5-box wow fadeInUp">
+                        <div class="card-heading">Physics 2</div>
+                        <div class="section-5-box-image card-image"><img src="assets/img/physicslab.jpg" style="display: block; align-self: center; margin: auto;"></div>
+                        <div class="card-body">
+                          <p>Modern Physics by Arthur beiser.</p>
+                          <div class="btn btn-primary">View<i class="fa fa-arrow-right"></i></div>
+                        </div>
+                      </div>
+                      <div class="col-md-3 card section-5-box wow fadeInUp">
+                        <div class="card-heading">Maths 1</div>
+                        <div class="section-5-box-image card-image"><img src="assets/img/mathematics.jpg" style="display: block; align-self: center; margin: auto;"></div>
+                        <div class="card-body">
+                          <p>Mathematical analysis by sc Malik, E kreyszig.</p>
+                          <div class="btn btn-primary">View<i class="fa fa-arrow-right"></i></div>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-md-3 card section-5-box wow fadeInUp">
+                        <div class="card-heading">Maths 2</div>
+                        <div class="section-5-box-image card-image"><img src="assets/img/mathematics.jpg" style="display: block; align-self: center; margin: auto;"></div>
+                        <div class="card-body">
+                          <p>Mathematics book by E kreyszig.</p>
+                          <div class="btn btn-primary">View<i class="fa fa-arrow-right"></i></div>
+                        </div>
+                      </div>
+                      <div class="col-md-3 card section-5-box wow fadeInUp">
+                        <div class="card-heading">Basic electrical</div>
+                        <div class="section-5-box-image card-image"><img src="assets/img/electrical.jpg" style="display: block; align-self: center; margin: auto;"></div>
+                        <div class="card-body">
+                          <p>Electrical technology by E Hughes & basic electrical engineering by Chakrabarti.</p>
+                          <div class="btn btn-primary">View<i class="fa fa-arrow-right"></i></div>
+                        </div>
+                      </div>
+                      <div class="col-md-3 card section-5-box wow fadeInUp">
+                        <div class="card-heading">Mechanics</div>
+                        <div class="section-5-box-image card-image"><img src="assets/img/mechanics.jpg" style="display: block; align-self: center; margin: auto;"></div>
+                        <div class="card-body">
+                          <p>Engineering mechanics by S.P.Timoshenko, DH Young, J.V Raon .</p>
+                          <div class="btn btn-primary">View<i class="fa fa-arrow-right"></i></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-3 card section-5-box wow fadeInUp">
+                        <div class="card-heading">Mechanics</div>
+                        <div class="section-5-box-image card-image"><img src="assets/img/workshop.png" style="display: block; align-self: center; margin: auto;"></div>
+                        <div class="card-body">
+                          <p>Engineering mechanics by AK.Tayal .</p>
+                          <div class="btn btn-primary">View<i class="fa fa-arrow-right"></i></div>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+            </div>
+            
+            <!-- Section 6 -->
+            <div class="section-6-container section-container section-container-image-bg" id="section-6">
+              <div class="container">
+                  <div class="row">
+                      <div class="col section-6 section-description wow fadeIn">
+                          <h2>Contact Us</h2>
+                          <div class="divider-1 wow fadeInUp"><span></span></div>
+                          <p>Send us an email using the form below or follow us on our social media channels.</p>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-md-6 section-6-box wow fadeInUp">
+                        <h3>By eMail</h3>
+                          <div class="section-6-form">
+                            <form role="form" action="assets/contact.php" method="post">
+                              <div class="form-group">
+                                <label class="sr-only" for="contact-email">Email</label>
+                                  <input type="text" name="email" placeholder="Email..." class="contact-email form-control" id="contact-email">
+                                </div>
+                                <div class="form-group">
+                                  <label class="sr-only" for="contact-subject">Subject</label>
+                                  <input type="text" name="subject" placeholder="Subject..." class="contact-subject form-control" id="contact-subject">
+                                </div>
+                                <div class="form-group">
+                                  <label class="sr-only" for="contact-message">Message</label>
+                                  <textarea name="message" placeholder="Message..." class="contact-message form-control" id="contact-message"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary btn-customized"><i class="fas fa-paper-plane"></i> Send Message</button>
+                            </form>
+                          </div>
+                        </div>
+                        <div class="col-md-5 offset-md-1 section-6-box wow fadeInDown">
+                          <h3>Follow us</h3>
+                          <div class="section-6-social">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-dribbble"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-pinterest"></i></a>
+                          </div>
+                        </div>
+                  </div>
+              </div>
+            </div>
+    
+            <!-- Footer -->
+            <footer class="footer-container">
+    
+              <div class="container">
+                <div class="row">
+    
+                        <div class="col">
+                          &copy; Daffodil. All rights reserved.
+                        </div>
+    
+                    </div>
+              </div>
+    
+            </footer>
+          
           </div>
+          <!-- End content -->
+        
         </div>
-        <div class="electrical" style="display: none">
-          <h2>Electrical</h2>
-          <div class="row">
-            <div class="col-md-4">
-              <div class="thumbnail">
-                <img src="assets/img/mathematics.jpg" alt="Lights" style="width: 300px;height: 200px; object-fit: cover;">
-                <div class="caption">
-                  <p>Mathematics</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="thumbnail">
-                <img src="assets/img/physics.jpg" alt="Lights" style="width: 300px;height: 200px; object-fit: cover;">
-                <div class="caption">
-                  <p>Physics</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="thumbnail">
-                <img src="assets/img/mechanics.jpg" alt="Lights" style="width: 300px;height: 200px; object-fit: cover;">
-                <div class="caption">
-                  <p>Engineering Mechanics</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-4">
-              <div class="thumbnail">
-                <img src="assets/img/electrical.jpg" alt="Lights" style="width: 300px;height: 200px; object-fit: cover;">
-                <div class="caption">
-                  <p>Electrical Engineering</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="thumbnail">
-                <img src="assets/img/chemistry.jpg" alt="Lights" style="width: 300px;height: 200px; object-fit: cover;">
-                <div class="caption">
-                  <p>Chemistry</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="thumbnail">
-                <img src="assets/img/workshop.png" alt="Lights" style="width: 300px;height: 200px; object-fit: cover;">
-                <div class="caption">
-                  <p>Workshop Practice</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-4">
-              <div class="thumbnail">
-                <img src="assets/img/physicslab.jpg" alt="Lights" style="width: 300px;height: 200px; object-fit: cover;">
-                <div class="caption">
-                  <p>Physics Laboratory</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="electronics" style="display: none">
-          <h2>Electronics</h2>
-          <div class="row">
-            <div class="col-md-4">
-              <div class="thumbnail">
-                <img src="assets/img/mathematics.jpg" alt="Lights" style="width: 300px;height: 200px; object-fit: cover;">
-                <div class="caption">
-                  <p>Mathematics</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="thumbnail">
-                <img src="assets/img/physics.jpg" alt="Lights" style="width: 300px;height: 200px; object-fit: cover;">
-                <div class="caption">
-                  <p>Physics</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="thumbnail">
-                <img src="assets/img/environmentsafety.jpg" alt="Lights" style="width: 300px;height: 200px; object-fit: cover;">
-                <div class="caption">
-                  <p>Environment and Safety Engineering</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-4">
-              <div class="thumbnail">
-                <img src="assets/img/electronics.jpg" alt="Lights" style="width: 300px;height: 200px; object-fit: cover;">
-                <div class="caption">
-                  <p>Basic Electronics Engineering</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="thumbnail">
-                <img src="assets/img/biology.jpg" alt="Lights" style="width: 300px;height: 200px; object-fit: cover;">
-                <div class="caption">
-                  <p>Biology</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="thumbnail">
-                <img src="assets/img/english.jpg" alt="Lights" style="width: 300px;height: 200px; object-fit: cover;">
-                <div class="caption">
-                  <p>Communicative English</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-4">
-              <div class="thumbnail">
-                <img src="assets/img/enggdrawing.jpg" alt="Lights" style="width: 300px;height: 200px; object-fit: cover;">
-                <div class="caption">
-                  <p>Engineering Drawing</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="thumbnail">
-                <img src="assets/img/chemistry.jpg" alt="Lights" style="width: 300px;height: 200px; object-fit: cover;">
-                <div class="caption">
-                  <p>Chemistry Laboratory</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="contact">
-        <h1>CONTACT US</h1>
-        <hr />
-      </div>
-      <footer>
-        <center><img src="./assets/img/Daffodil%20footer.svg" alt="" /></center>
-        <div class="footer-content">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rhoncus
-          lorem non tincidunt dictum. Nullam id nulla molestie enim volutpat
-          euismod. Nunc sollicitudin orci ut porta feugiat. Donec porttitor
-          faucibus ipsum ac aliquam. Proin condimentum massa vel dapibus
-          pulvinar.
-        </div>
-      </footer>
-    </div>
-    <script>
-      const buttonDark = document.getElementById("dark");
-      buttonDark.addEventListener("click", () => {
-        if (buttonDark.innerText != "Dark Mode") {
-          buttonDark.innerText = "Dark Mode";
-        } else {
-          buttonDark.innerText = "Light Mode";
-        }
-        var heroH1 = document.querySelector(".hero h1");
-        heroH1.classList.toggle("darkmode");
-        var button = document.querySelectorAll("button");
-        button.forEach((item) => {
-          item.classList.toggle("darkmode");
-        });
-        var logo = document.querySelector(".logo");
-        logo.classList.toggle("darkmode");
-        var large = document.querySelector(".large-wrapper");
-        large.classList.toggle("darkmode");
-        var navBlack = document.querySelector("nav");
-        navBlack.classList.toggle("darkmode");
-        var navUlLi = document.querySelectorAll("nav ul li");
-        navUlLi.forEach((item) => {
-          item.classList.toggle("darkmode");
-        });
-        var itemCardTitle = document.querySelectorAll(".item-card-title");
-        itemCardTitle.forEach((item) => {
-          item.classList.toggle("darkmode");
-        });
-      });
-    </script>
-  </body>
+        <!-- End wrapper -->
+
+        <!-- Javascript -->
+        <script src="assets/js/jquery-3.3.1.min.js"></script>
+        <script src="assets/js/jquery-migrate-3.0.0.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="assets/js/jquery.backstretch.min.js"></script>
+        <script src="assets/js/wow.min.js"></script>
+        <script src="assets/js/jquery.waypoints.min.js"></script>
+        <script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+        <script src="assets/js/scripts.js"></script>
+
+    </body>
+
 </html>
