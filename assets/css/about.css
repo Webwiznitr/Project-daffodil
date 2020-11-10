@@ -86,7 +86,7 @@ body{
         padding: 40px;
         border-radius: 10px;
 }
-@media screen and (max-width:600px){
+@media screen and (max-width:768px){
     .about-section{
         background-size: 100%;
         padding: 100px 40px;
