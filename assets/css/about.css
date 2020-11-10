@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans",sans-serif;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f1f1;
+}
+
+.about-section{
+    background: linear-gradient(57deg,violet,black) no-repeat left;
+    background-size: 55%;
+    height: 100vh;
+    background-color:  #f2f2f2;
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 100px 0;
+}
+.txt{
+    width: 45%;
+    float: left;
+    font-size: 20px;
+    color: #fff;
+    line-height: 40px;
+    padding:100px 90px;
+}
+
+.inner-container{
+    width: 55%;
+    float: right;
+    position: top;
+    overflow: hidden;
+    background-color: #ecf1b6;
+    padding: 90px;
+}
+
+.inner-container h1{
+    margin-bottom: 30px;
+    color: #545454;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.text{
+    font-size: 13px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    color: #545454;
+    font-size: 14px;
+}
+
+@media screen and (max-width:1200px){
+    .inner-container{
+        padding: 80px;
+    }
+}
+@media screen and (max-width:1000px){
+    .about-section{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .txt{
+        width: 100%;
+        font-size: 18px;
+        color: #fff;
+        line-height: 20px;
+        padding:0px 90px;
+        margin-bottom: 50px;
+    }
+    .inner-container{
+        width: 100%;
+        padding: 40px;
+        border-radius: 10px;
+}
+@media screen and (max-width:600px){
+    .about-section{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .txt{
+        width: 100%;
+        font-size: 20px;
+        color: #fff;
+        line-height: 25px;
+        padding:0px 90px;
+        margin-bottom: 90px;
+    }
+    .inner-container{
+        padding: 60px;
+    }
+}
