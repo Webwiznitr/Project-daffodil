@@ -22,13 +22,18 @@ body{
     color: white;
     padding: 100px 0;
 }
+.about-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
 .txt{
     width: 45%;
     float: left;
     font-size: 20px;
     color: #fff;
-    line-height: 40px;
-    padding:100px 90px;
+    line-height: 28px;
+    padding:0px 90px;
 }
 
 .inner-container{
@@ -37,19 +42,12 @@ body{
     position: top;
     overflow: hidden;
     background-color: #ecf1b6;
-    padding: 90px;
-}
-
-.inner-container h1{
-    margin-bottom: 30px;
-    color: #545454;
-    font-size: 30px;
-    font-weight: 900;
+    padding: 100px;
 }
 
 .text{
-    font-size: 13px;
-    color: #545454;
+    font-size: 14px;
+    color:#000;
     line-height: 30px;
     text-align: justify;
     margin-bottom: 40px;
@@ -71,19 +69,20 @@ body{
 @media screen and (max-width:1000px){
     .about-section{
         background-size: 100%;
-        padding: 100px 40px;
+        padding: 20px 40px;
     }
     .txt{
         width: 100%;
-        font-size: 18px;
+        font-size: 16px;
         color: #fff;
+        letter-spacing: 0em;
         line-height: 20px;
         padding:0px 90px;
         margin-bottom: 50px;
     }
     .inner-container{
         width: 100%;
-        padding: 40px;
+        padding: 30px;
         border-radius: 10px;
 }
 @media screen and (max-width:768px){
@@ -93,13 +92,15 @@ body{
     }
     .txt{
         width: 100%;
-        font-size: 20px;
+        font-size: 16px;
         color: #fff;
-        line-height: 25px;
+        line-height: 20px;
+        letter-spacing: 0em;
         padding:0px 90px;
         margin-bottom: 90px;
     }
     .inner-container{
+        margin: auto;
         padding: 60px;
     }
 }
