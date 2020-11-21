@@ -13,17 +13,15 @@ body{
 }
 
 .about-section{
-    background: linear-gradient(57deg,violet,black) no-repeat left;
+    background-color: white;
     background-size: 55%;
-    height: 100vh;
-    background-color:  #f2f2f2;
+    height: 80vh;
+    margin-top: -3.3%;
     position: relative;
     text-align: center;
-    color: white;
-    padding: 100px 0;
+    padding: 100px 0 0 0;
 }
 .about-container h1{
-    margin-bottom: 30px;
     font-size: 30px;
     font-weight: 900;
 }
@@ -31,7 +29,7 @@ body{
     width: 45%;
     float: left;
     font-size: 20px;
-    color: #fff;
+    color: black;
     line-height: 28px;
     padding:0px 90px;
 }
@@ -41,13 +39,14 @@ body{
     float: right;
     position: top;
     overflow: hidden;
-    background-color: #ecf1b6;
-    padding: 100px;
+    background-color: #00ad9f;
+    padding: 80px;
+    color: white;
 }
 
 .text{
     font-size: 14px;
-    color:#000;
+    color:#fff;
     line-height: 30px;
     text-align: justify;
     margin-bottom: 40px;
@@ -74,7 +73,7 @@ body{
     .txt{
         width: 100%;
         font-size: 16px;
-        color: #fff;
+        color: black;
         letter-spacing: 0em;
         line-height: 20px;
         padding:0px 90px;
@@ -93,7 +92,7 @@ body{
     .txt{
         width: 100%;
         font-size: 16px;
-        color: #fff;
+        color: black;
         line-height: 20px;
         letter-spacing: 0em;
         padding:0px 90px;

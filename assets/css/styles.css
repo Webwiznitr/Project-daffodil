@@ -43,11 +43,15 @@ body {
   color: #172644;
 }
 
+.material-content{
+  background-color: white;
+}
+
 .content {
-  background:linear-gradient(180deg,#fff,#4fd3b9) ;
+  background: #faf28c;
   width: 100%;
   height: 90vh;
-  margin: 4em auto;
+  margin: 0 0 4em 0 auto;
   font-size: 20px;
   line-height: 30px;
   text-align: justify;
@@ -56,6 +60,7 @@ body {
   width: 100%;
   padding: 40px;
   display: flex;
+  color: black;
   justify-content: center;
   font-size: 50px;
   text-align: justify;
@@ -229,7 +234,6 @@ footer img {
   }
   .content {
     height: auto;
-    margin-top: 50px;
   }
 }
 
