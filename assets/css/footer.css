@@ -113,13 +113,35 @@
     
     /*media*/
     /* start of  media footer */
-    @media (max-width: 767px) {
+    @media (max-width: 768px) {
       footer{
-        padding: 15px 30px;
-        justify-content: initial;
+        background-size: 90vh;
+        padding: 0px 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
+    footer .soc{
+      display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    footer h6{
+      text-align: center;
+    }
+  }
+  @media screen and (max-width:1024px){
+    footer{
+      background-size: 90vh;
+      padding: 20px 0px;
+  }
+  footer .soc{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  }
 
-    }
     /* end of media footer */
     .footer-2{
       width: 100%;
@@ -147,10 +169,12 @@
     }
 
         /* start of media footer-2 */
-    @media (max-width: 767px) {
+    @media (max-width: 768px) {
       .footer-2{
-        padding: 5px 20px;
+        background-size: 90vh;
+        padding: 0px 60px;
         height: 80px;
+        text-align: center;
     }
     .footer-2 p{
       padding: 5px 15px;

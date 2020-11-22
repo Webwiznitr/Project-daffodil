@@ -19,7 +19,7 @@ body{
     margin-top: -3.3%;
     position: relative;
     text-align: center;
-    padding: 100px 0 0 0;
+    padding: 120px 0 0 0;
 }
 .about-container h1{
     font-size: 30px;
@@ -31,16 +31,18 @@ body{
     font-size: 20px;
     color: black;
     line-height: 28px;
-    padding:0px 90px;
+    padding:0px 100px;
+    margin-bottom: 100px;
 }
 
 .inner-container{
     width: 55%;
     float: right;
-    position: top;
+    position: top; 
     overflow: hidden;
     background-color: #00ad9f;
-    padding: 80px;
+    margin-top: 40px;
+    padding:80px;
     color: white;
 }
 

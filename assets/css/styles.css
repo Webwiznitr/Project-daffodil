@@ -199,14 +199,19 @@ footer img {
   background-color: #4fd3b9;
 }
 
-@media (max-width: 786px) {
+@media (max-width: 768px) {
   header {
-    background: url(../img/hero.jpg) no-repeat 50% 25%;
+    background: url(../img/hero.jpg);
+    background-size: auto;
   }
   .logo {
     position: fixed;
     top: 0;
+    margin-left: 80px;
     margin-top: 16px;
+  }
+  nav{
+    width: auto ;
   }
 
   nav ul {
@@ -479,5 +484,14 @@ img {
 @media only screen and (max-width: 992px) {
   .contactVector{
     margin-top: 20%;
+  }
+}
+@media only screen and (max-width: 768px){
+  .contact-form{
+    margin: 40px 60px;
+    width: 80%;
+  }
+  .contactVector{
+    display: none;
   }
 }
