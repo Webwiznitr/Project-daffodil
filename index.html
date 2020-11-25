@@ -64,9 +64,9 @@
             <div class="menu">
               <ul>
                 <li><a href="#">HOME</a></li>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">MATERIALS</a></li>
-                <li><a href="#">CONTACT US</a></li>
+                <li><a href="#aboutid">ABOUT</a></li>
+                <li><a href="#materialid">MATERIALS</a></li>
+                <li><a href="#contactid">CONTACT US</a></li>
                 <li>
                   <button id="dark" type="button" class="btn btn-outline-dark">
                     Dark Mode
@@ -80,14 +80,15 @@
       <div class="hero">
         <div class="hero-content typewriter">
           <h1>DAFFODIL</h1>
-          <button type="button" class="btn btn-outline-dark material-btn">
+          <form method="get" action="#materialid">
+          <button type="submit" class="btn btn-outline-dark material-btn">
             Go to Materials
-          </button>
+          </button></form>
         </div>
       </div>
     </br>
 
-      <div class="about-section">
+      <div class="about-section" id="aboutid">
         <div class="txt">
           <h1><b>ABOUT</b></h1>
           <p class="text1">Students often find it difficult to cope up and manage stuff from different sources to have ample preparation, and often end up in a sticky scenario. This website has been designed for the sole purpose of helping out first years on their quest to a successful academic life here, at NIT Rourkela. The platform will serve as a constant source of various types of study material in the form of e-books, PDFs, Powerpoint slides, Previous papers and solutions, recorded video lectures and more! </p>
@@ -107,8 +108,9 @@
         </div>
       </div>
       
-     <section class="material-content"> 
-      <div class="content">
+     <section class="material-content" > 
+      <div class="content" id="materialid">
+      </br>
         <h1><b>MATERIALS</b></h1>
         <div class="container mt-2">
           <div class="row">
@@ -277,7 +279,7 @@
         </div>
       </div>
     </section>
-    <div class="contact-div">
+    <div class="contact-div" id="contactid">
     <div class="container contact-form">
             
             <form method="post">
@@ -334,7 +336,7 @@ enter your email address below to subscribe us.</p>
     </div>
     <div class="soc">
       <p><h6>follow us on social networks</h6></p>
-      <a href=""><i class="fab fa-github"></i></a>
+      <a href="https://github.com/Webwiznitr"><i class="fab fa-github"></i></a>
       <a href=""><i class="fab fa-twitter"></i></a>
       <a href=""><i class="fab fa-linkedin"></i></a>
       <a href=""><i class="fab fa-instagram"></i></a>
@@ -346,10 +348,10 @@ enter your email address below to subscribe us.</p>
     <p>&copy; Copyright 2020 
  <span>daffodil</span> - Designed by <span>webwiz</span></p>
     <div class="nav">
-      <a href="">about us</a>
-      <a href="">materials</a>
-      <a href="">books</a>
-      <a href="">contact us</a>
+      <a href="">home</a>
+      <a href="#aboutid">about us</a>
+      <a href="#materialid">materials</a>
+      <a href="#contactid">contact us</a>
     </div>  
   </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js"></script>
