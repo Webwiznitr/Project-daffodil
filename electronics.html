@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Daffodil</title>
-    <link
+	<title>Electronics</title>
+	<link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
       integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
@@ -46,10 +47,15 @@
         $(".loader-bg").fadeOut("slow");
       })
     </script>
-
-    </head>
-    <body>
-    <div class="loader-bg">
+    <style>
+    	body{
+    		padding: 0 !important;
+    		margin: 0 !important;
+    	}
+    </style>
+</head>
+<body>
+	<div class="loader-bg">
       <div class="loader"></div>
     </div>
 
@@ -63,157 +69,20 @@
             <div class="logo">LOGO</div>
             <div class="menu">
               <ul>
-                <li><a href="#">HOME</a></li>
-                <li><a href="#aboutid">ABOUT</a></li>
-                <li><a href="#materialid">MATERIALS</a></li>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="index.html">MATERIALS</a></li>
                 <li><a href="#contactid">CONTACT US</a></li>
-                <li>
-                  <button id="dark" type="button" class="btn btn-outline-dark">
-                    Dark Mode
-                  </button>
-                </li>
               </ul>
             </div>
           </nav>
         </header>
-      </div>
-      <div class="hero">
-        <div class="hero-content typewriter">
-          <h1>DAFFODIL</h1>
-          <form method="get" action="#materialid">
-          <button type="submit" class="btn btn-outline-dark material-btn">
-            Go to Materials
-          </button></form>
-        </div>
-      </div>
-    </br>
-
-      <div class="about-section" id="aboutid">
-        <div class="txt">
-          <h1><b>ABOUT</b></h1>
-          <p class="text1">Students often find it difficult to cope up and manage stuff from different sources to have ample preparation, and often end up in a sticky scenario. This website has been designed for the sole purpose of helping out first years on their quest to a successful academic life here, at NIT Rourkela. The platform will serve as a constant source of various types of study material in the form of e-books, PDFs, Powerpoint slides, Previous papers and solutions, recorded video lectures and more! </p>
-        </div>
-        <div class="inner-container">
-          
-          <p class="text">
-            So no more running around in search of books and other material, we got you covered for the first and second semester of your college life! And we’ll do all we can to help you out as well as maximize your performance, good luck and make full-fledged use of this network prepared especially for you, by the seniors themselves!
-          </p>
-          <div class="skills">
-            <span>Study Materials</span>
-            <span>|</span>
-            <span>Previous Paper & Solutions</span>
-            <span>|</span>
-            <span>Video Lectures</span>
-          </div>
-        </div>
-      </div>
-      
-     <section class="material-content" > 
-      <div class="content" id="materialid">
-      </br>
-        <h1><b>MATERIALS</b></h1>
-        <div class="container mt-2">
-          <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-12 item">
-              <div class="card item-card card-block">
-                <h4 class="card-title text-right"></h4>
-                <img
-                  src="https://georgetelegraphblog.files.wordpress.com/2019/02/electrical-engineering.jpg"
-                  alt="Electrical"
-                />
-                <a href="electrical.html" target="_blank">
-                <div class="electrical-btn"><button class="btncl">
-                  <h5 class="item-card-title mt-3 mb-3">Electrical Sem</h5></button>
-                </div>
-            </a>
-              </div>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 item">
-              <div class="card item-card card-block">
-                <h4 class="item-card-title text-right"></h4>
-                <img
-                  src="https://subcontracteu.com/uploads/pages/535eee07e8fd4c9fabc377cd464c1d74.png"
-                />
-            <a href="electronics.html" target="_blank">
-            	<div class="electronics-btn"><button class="btncl" >
-                  <h5 class="item-card-title mt-3 mb-3">Electronics Sem</h5></button>
-                </div>
-            </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- <div class="electrical" style="display: none">
-          <h2>Electrical</h2>
-          <div class="row">
-            <div class="col-md-4">
-              <div class="thumbnail">
-                <img src="assets/img/mathematics.jpg" alt="Lights" style="width: 300px;height: 200px; object-fit: cover;">
-                <div class="caption">
-                  <p>Mathematics</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="thumbnail">
-                <img src="assets/img/physics.jpg" alt="Lights" style="width: 300px;height: 200px; object-fit: cover;">
-                <div class="caption">
-                  <p>Physics</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="thumbnail">
-                <img src="assets/img/mechanics.jpg" alt="Lights" style="width: 300px;height: 200px; object-fit: cover;">
-                <div class="caption">
-                  <p>Engineering Mechanics</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-4">
-              <div class="thumbnail">
-                <img src="assets/img/electrical.jpg" alt="Lights" style="width: 300px;height: 200px; object-fit: cover;">
-                <div class="caption">
-                  <p>Electrical Engineering</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="thumbnail">
-                <img src="assets/img/chemistry.jpg" alt="Lights" style="width: 300px;height: 200px; object-fit: cover;">
-                <div class="caption">
-                  <p>Chemistry</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="thumbnail">
-                <img src="assets/img/workshop.png" alt="Lights" style="width: 300px;height: 200px; object-fit: cover;">
-                <div class="caption">
-                  <p>Workshop Practice</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-4">
-              <div class="thumbnail">
-                <img src="assets/img/physicslab.jpg" alt="Lights" style="width: 300px;height: 200px; object-fit: cover;">
-                <div class="caption">
-                  <p>Physics Laboratory</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="electronics" style="display: none">
+              
+        <div class="electronics">
           <h2>Electronics</h2>
           <div class="row">
             <div class="col-md-4">
               <div class="thumbnail">
-                <img src="assets/img/mathematics.jpg" alt="Lights" style="width: 300px;height: 200px; object-fit: cover;">
+                <a href="https://drive.google.com/drive/u/0/folders/1fwMdMdlMsCN3AuM95Cp1pKzBR8MGYlQt" target="_blank"><img src="assets/img/mathematics.jpg" alt="Lights" style="width: 300px;height: 200px; object-fit: cover;"></a>
                 <div class="caption">
                   <p>Mathematics</p>
                 </div>
@@ -221,7 +90,7 @@
             </div>
             <div class="col-md-4">
               <div class="thumbnail">
-                <img src="assets/img/physics.jpg" alt="Lights" style="width: 300px;height: 200px; object-fit: cover;">
+                <a href="https://drive.google.com/drive/u/0/folders/1cPIDsDyJfROCyrcuGIVw7LmiO-g_kZ-K" target="_blank"><img src="assets/img/physics.jpg" alt="Lights" style="width: 300px;height: 200px; object-fit: cover;"></a>
                 <div class="caption">
                   <p>Physics</p>
                 </div>
@@ -229,7 +98,7 @@
             </div>
             <div class="col-md-4">
               <div class="thumbnail">
-                <img src="assets/img/environmentsafety.jpg" alt="Lights" style="width: 300px;height: 200px; object-fit: cover;">
+                <a href="https://drive.google.com/drive/u/0/folders/1WPBment6Cb5nbcVrpHS_yjATjohYXaag" target="_blank"><img src="assets/img/environmentsafety.jpg" alt="Lights" style="width: 300px;height: 200px; object-fit: cover;"></a>
                 <div class="caption">
                   <p>Environment and Safety Engineering</p>
                 </div>
@@ -239,7 +108,7 @@
           <div class="row">
             <div class="col-md-4">
               <div class="thumbnail">
-                <img src="assets/img/electronics.jpg" alt="Lights" style="width: 300px;height: 200px; object-fit: cover;">
+                <a href="https://drive.google.com/drive/u/0/folders/1VvJtSOxRQY-B3VucrlDPekHj3gE4sh4w" target="_blank"><img src="assets/img/electronics.jpg" alt="Lights" style="width: 300px;height: 200px; object-fit: cover;"></a>
                 <div class="caption">
                   <p>Basic Electronics Engineering</p>
                 </div>
@@ -247,7 +116,7 @@
             </div>
             <div class="col-md-4">
               <div class="thumbnail">
-                <img src="assets/img/biology.jpg" alt="Lights" style="width: 300px;height: 200px; object-fit: cover;">
+                <a href="https://drive.google.com/drive/u/0/folders/1RplsxtfrG2qltEvIRJcAQBjtwjRZVjlp" target="_blank"><img src="assets/img/biology.jpg" alt="Lights" style="width: 300px;height: 200px; object-fit: cover;"></a>
                 <div class="caption">
                   <p>Biology</p>
                 </div>
@@ -255,7 +124,7 @@
             </div>
             <div class="col-md-4">
               <div class="thumbnail">
-                <img src="assets/img/english.jpg" alt="Lights" style="width: 300px;height: 200px; object-fit: cover;">
+                <a href="https://drive.google.com/drive/u/0/folders/1fGSIblorTI2V-3MiawgLtiugDqw3cTiW" target="_blank"><img src="assets/img/english.jpg" alt="Lights" style="width: 300px;height: 200px; object-fit: cover;"></a>
                 <div class="caption">
                   <p>Communicative English</p>
                 </div>
@@ -265,7 +134,7 @@
           <div class="row">
             <div class="col-md-4">
               <div class="thumbnail">
-                <img src="assets/img/enggdrawing.jpg" alt="Lights" style="width: 300px;height: 200px; object-fit: cover;">
+                <a href="https://drive.google.com/drive/u/0/folders/1fGSIblorTI2V-3MiawgLtiugDqw3cTiW" target="_blank"><img src="assets/img/enggdrawing.jpg" alt="Lights" style="width: 300px;height: 200px; object-fit: cover;"></a>
                 <div class="caption">
                   <p>Engineering Drawing</p>
                 </div>
@@ -273,7 +142,7 @@
             </div>
             <div class="col-md-4">
               <div class="thumbnail">
-                <img src="assets/img/chemistry.jpg" alt="Lights" style="width: 300px;height: 200px; object-fit: cover;">
+                <a href="https://drive.google.com/drive/u/0/folders/1fGSIblorTI2V-3MiawgLtiugDqw3cTiW" target="_blank"><img src="assets/img/chemistry.jpg" alt="Lights" style="width: 300px;height: 200px; object-fit: cover;"></a>
                 <div class="caption">
                   <p>Chemistry Laboratory</p>
                 </div>
@@ -281,9 +150,8 @@
             </div>
           </div>
         </div>
-      </div>-->
-    </section> 
-    <div class="contact-div" id="contactid">
+      </div>
+      <div class="contact-div" id="contactid">
     <div class="container contact-form">
             
             <form method="post">
@@ -315,7 +183,9 @@
 <img class="contactVector" src="assets/img/Contact.svg"/>
 </div>
 
-<footer>
+
+
+      <footer>
     <div class="contact">
       <h6>contact us</h6>
       <p class="one">Hi, we are always open for cooperation and suggestions,<br>for any queries contact us in one of the ways below</p>
@@ -390,5 +260,6 @@ enter your email address below to subscribe us.</p>
         });
       });
     </script>
-  </body>
+
+</body>
 </html>
