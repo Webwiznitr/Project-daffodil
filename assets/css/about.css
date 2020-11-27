@@ -9,14 +9,12 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #f1f1f1;
+    background-color: #f9f9f9;
 }
 
 .about-section{
-    background-color: white;
-    background-size: 55%;
-    height: 80vh;
-    margin-top: -3.3%;
+    background-color: #f9f9f9;
+    height: 100vh;
     position: relative;
     text-align: center;
     padding: 120px 0 0 0;
@@ -25,8 +23,12 @@ body{
     font-size: 30px;
     font-weight: 900;
 }
+.about1{
+    width: 50%;
+    height: 70%;
+}
 .txt{
-    width: 45%;
+    width: 50%;
     float: left;
     font-size: 20px;
     color: black;
