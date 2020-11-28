@@ -552,9 +552,6 @@ img {
   .electronics-btn {
     padding-left: 115px;
   }
-  .contactVector{
-    margin-top: 10%;
-  }
 }
 @media only screen and (max-width: 768px){
   .contact-form{

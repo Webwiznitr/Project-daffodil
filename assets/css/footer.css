@@ -131,7 +131,7 @@
       text-align: center;
     }
   }
-  @media screen and (max-width:1024px){
+  @media screen and (max-width:1200px){
     footer{
       background-size: 90vh;
       padding: 20px 0px;
