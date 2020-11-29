@@ -100,7 +100,7 @@
     }
     
     footer a:hover {
-    color: yellow; 
+      color: white;
     transform: scale(1.3);
     transition: all .2s ease-in-out;      
     }
