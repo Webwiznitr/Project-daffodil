@@ -541,6 +541,14 @@ img {
   .electronics-btn {
     padding-left: 115px;
   }
+  
+  .typewriter h1 {
+    font-size: 80px;
+    margin-top: 100px;
+    margin-left: -120%;
+    animation: typing 5.5s steps(30, end), blink-caret 0.75s step-end infinite;
+  }
+ 
 }
 
 @media only screen and (max-width: 1200px) {
