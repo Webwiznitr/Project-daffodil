@@ -563,7 +563,7 @@ img {
   }
   
   .typewriter h1 {
-    font-size: 75px;
+    font-size: 65px;
     margin-top: 150px;
     margin-left: -120%;
     animation: typing 5.5s steps(30, end), blink-caret 0.75s step-end infinite;
