@@ -531,6 +531,26 @@ img {
 }
 
 @media only screen and (max-width: 768px){
+  
+.material-btn,
+.material-btn:focus {
+  margin-left: -130px;
+  font-style: italic;
+  font-size: 20px;
+  color: #fff;
+  background-color: #000;
+  border-radius: 5px;
+  margin-top: 100px;
+}
+.material-btn:hover,
+.material-btn.darkmode:hover {
+  margin-left: -110px;
+  color: #000;
+  background-color: #fff;
+  transition-duration: 0.3s;
+  margin-top: 80px;
+}
+
    .material-content{
     height: 100%;
   } 
@@ -544,7 +564,7 @@ img {
   
   .typewriter h1 {
     font-size: 80px;
-    margin-top: 100px;
+    margin-top: 150px;
     margin-left: -120%;
     animation: typing 5.5s steps(30, end), blink-caret 0.75s step-end infinite;
   }
