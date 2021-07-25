@@ -1,0 +1,69 @@
+<html>
+
+    <head>
+            <title> Forum </title>
+            <link rel="stylesheet" href="assets/css/styles.css" />
+            <link rel="stylesheet" href="assets/css/forum-style.css" />
+    
+    </head>
+    <body>
+        <div class="large-wrapper">
+            <div class="wrapper">
+                <header>
+                  <nav>
+                    <div class="menu-icon">
+                      <i class="fa fa-bars fa-2x"></i>
+                    </div>
+                    <div class="logo">
+                      <a href="https://webwiznitr.xyz"><img src="assets/img/logo.ico"></a>
+                    </div>
+                    <div class="menu">
+                      <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="index.html#aboutid">ABOUT</a></li>
+                        <li><a href="index.html#materialid">MATERIALS</a></li> 
+                        <li><a href="forum.php">FORUM</a></li>
+                        <li><a href="https://chat.whatsapp.com/EVROMYW4i163CcMQkW0bmO"><button class="btnn">JOIN US!</button></a></li>
+                        <li>
+                          <button style="display: none;" id="dark" type="button" class="btn btn-outline-dark">
+                            Dark Mode
+                          </button>
+                        </li>
+                      </ul>
+                    </div>
+                  </nav>
+                </header>
+            </div>
+        </div>
+
+        
+        <div class="inputform" style="position: absolute; top: 100; left: 50;">
+            <h1> Write a Post</h1><br/><br/>
+            <form method="post" action="writeDB.php" name="add_post">
+
+                <label for="email">Email Address:</label> <br/>
+                <div class="inputbox">
+                    <input type="email" name="email" placeholder="abcd@hotmail.com" required />  
+                </div>
+
+                <br/><br/>
+                <label for="title">Post Title:</label> <br/>
+                <div class="inputbox">
+                    <input type="text" name="title" placeholder="Write your title here..." required />
+                </div>
+
+                <br/><br/>
+                <label for="contents">Post Contents:</label> <br/>
+                <div class="inputbox">
+                    <textarea name="contents" rows="20" placeholder="Write your contents here..."></textarea> <br /> <br />
+                </div>
+
+                <div class="inputbox">
+                    <input type="submit" name="add" value="Add Post" style="width: 150;"/>  
+                </div>
+
+            </form>    
+        </div>
+
+    </body>
+</html>
