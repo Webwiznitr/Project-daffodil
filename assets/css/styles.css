@@ -719,7 +719,7 @@ img {
   padding: 0px 10px;
 }
 
-.fb{
+.wsapp{
   width: 300px;
   height: 100px;
   position: fixed;
@@ -733,22 +733,22 @@ img {
   z-index: 10;
 }
 
-.fb img{
+.wsapp img{
   left: 250px; 
   width: 100px;
 }
 
-.fb:hover{
+.wsapp:hover{
   left: 80px;
 }
 
-.fb a{
+.wsapp a{
   color: white;
   font-size: 35px;
   text-align: center;
 }
 
-.fb p{
+.wsapp p{
   font-size: normal;
   margin: 30px;
 }
