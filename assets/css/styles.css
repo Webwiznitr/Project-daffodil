@@ -718,3 +718,37 @@ img {
   border-radius: 10px;
   padding: 0px 10px;
 }
+
+.wsapp{
+  width: 300px;
+  height: 100px;
+  position: fixed;
+  left: -260px;
+  top: 200px;
+  display: block;
+  border-radius: 10px;
+  background: rgba(37, 211, 102);
+  transition: left 2s;
+  transition-timing-function: cubic-bezier(1,0.1,2,1);
+  z-index: 10;
+}
+
+.wsapp img{
+  left: 250px; 
+  width: 100px;
+}
+
+.wsapp:hover{
+  left: 80px;
+}
+
+.wsapp a{
+  color: white;
+  font-size: 35px;
+  text-align: center;
+}
+
+.wsapp p{
+  font-size: normal;
+  margin: 30px;
+}
